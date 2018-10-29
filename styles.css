@@ -21,29 +21,31 @@ body {
 #toerresnor {
     background-image: url(produktion/toerresnor.svg);
     width: 100vw;
-    height: 22vw;
+    ;
+    height: 14vw;
+    ;
     position: absolute;
     left: 0;
-    top: 15vw;
+    top: 6.4vw;
 }
+
 
 #toerresnor1 {
     background-image: url(produktion/toerresnor1.svg);
     width: 100vw;
-    height: 22vw;
+    height: 14vw;
     position: absolute;
-    left: 0;
-    top: 0vw;
+    top: 22vw;
 }
 
 #toerresnor2 {
     background-image: url(produktion/toerresnor2.svg);
     width: 100vw;
-    height: 22vw;
+    height: 14vw;
     position: absolute;
-    left: 0;
-    top: 30vw;
+    top: 37vw;
 }
+
 
 #mand {
     background-image: url(produktion/mand.svg);
@@ -54,31 +56,43 @@ body {
     left: 83vw;
 }
 
-#time_penge {
-    background-image: url(produktion/time_penge.svg);
-    width: 30vw;
-    height: 10vw;
+#penge_optælling {
+    background-image: url(produktion/penge_opt%C3%A6lling.svg);
+    width: 16vw;
+    height: 6.5vw;
     position: absolute;
-    left: 34vw;
+    left: 35vw;
     top: 0;
 }
 
 #time {
     background-image: url(produktion/time.svg);
+    width: 4vw;
+    height: 4vw;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 1.3vw;
+    left: 57vw;
+}
+
+#nedtaelling {
+    background-image: url(produktion/nedt%C3%A6lling.svg);
     width: 6vw;
-    height: 6vw;
+    height: 4.5vw;
+    background-repeat: no-repeat;
     position: absolute;
     top: 2vw;
-    left: 62vw;
+    left: 51vw;
 }
 
 #cancel {
     background-image: url(produktion/cancel.svg);
     position: absolute;
-    width: 6vw;
-    height: 6vw;
-    top: 0;
-    left: 94vw;
+    background-repeat: no-repeat;
+    width: 3.8vw;
+    height: 3.8vw;
+    top: 1.4vw;
+    left: 95vw;
 }
 
 /*nr. 2 på mellemste tørresnor*/
@@ -89,11 +103,13 @@ body {
     height: 13vw;
     top: 27vw;
     left: 40vw;
+
 }
 
+
 /*nr. 1 på øverste tørresnor*/
-#pengeseddel2 {
-    background-image: url(produktion/pengeseddel2.svg);
+#pengeseddel1 {
+    background-image: url(produktion/pengeseddel1.svg);
     position: absolute;
     width: 6.85vw;
     height: 13vw;
@@ -103,8 +119,8 @@ body {
 }
 
 /*nr. 3 på nederste tørresnor*/
-#pengeseddel3 {
-    background-image: url(produktion/pengeseddel3.svg);
+#pengeseddel2 {
+    background-image: url(produktion/pengeseddel2.svg);
     position: absolute;
     width: 6.85vw;
     height: 13vw;
@@ -114,12 +130,12 @@ body {
 }
 
 /*nr. 1 på nederste tørresnor*/
-#pengeseddel4 {
-    background-image: url(produktion/pengeseddel4.svg);
+#pengeseddel3 {
+    background-image: url(produktion/pengeseddel3.svg);
     position: absolute;
     width: 6.85vw;
     height: 13vw;
-    top: 40vw;
+    top: 41vw;
     left: 15vw;
     transform: rotate(10deg);
 }
@@ -136,8 +152,8 @@ body {
 }
 
 /*nr. 1 på mellemste tørresnor*/
-#skat_seddel2 {
-    background-image: url(produktion/skat_seddel2.svg);
+#skat_seddel1 {
+    background-image: url(produktion/skat_seddel1.svg);
     position: absolute;
     width: 7.9vw;
     height: 11vw;
@@ -162,7 +178,7 @@ body {
     position: absolute;
     width: 9.24vw;
     height: 11vw;
-    top: 43.3vw;
+    top: 42.5vw;
     left: 40vw;
 }
 
@@ -251,4 +267,40 @@ body {
     top: 36vw;
     left: 72vw;
     transform: rotate(-10deg);
+}
+
+/*animation*/
+
+.slide_to_right {
+    animation-name: slide_right_kf;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+
+}
+
+@keyframes slide_right_kf {
+    0% {
+        transform: translateX(0vw);
+    }
+
+    100% {
+        transform: translateX(100vw);
+    }
+}
+
+.slide_to_left {
+    animation-name: slide_left_kf;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+
+}
+
+@keyframes slide_left_kf {
+    0% {
+        transform: translateX(-0vw);
+    }
+
+    100% {
+        transform: translateX(-100vw);
+    }
 }
