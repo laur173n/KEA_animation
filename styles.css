@@ -1,0 +1,254 @@
+body {
+    margin: 0;
+}
+
+#scene {
+    position: relative;
+    width: 100vw;
+    height: 56.25vw;
+}
+
+#game_background {
+    background-image: url(produktion/baggrund.svg);
+    width: 100vw;
+    height: 56.25vw;
+    background-size: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#toerresnor {
+    background-image: url(produktion/toerresnor.svg);
+    width: 100vw;
+    height: 22vw;
+    position: absolute;
+    left: 0;
+    top: 15vw;
+}
+
+#toerresnor1 {
+    background-image: url(produktion/toerresnor1.svg);
+    width: 100vw;
+    height: 22vw;
+    position: absolute;
+    left: 0;
+    top: 0vw;
+}
+
+#toerresnor2 {
+    background-image: url(produktion/toerresnor2.svg);
+    width: 100vw;
+    height: 22vw;
+    position: absolute;
+    left: 0;
+    top: 30vw;
+}
+
+#mand {
+    background-image: url(produktion/mand.svg);
+    width: 22vw;
+    height: 49vw;
+    position: absolute;
+    top: 11vw;
+    left: 83vw;
+}
+
+#time_penge {
+    background-image: url(produktion/time_penge.svg);
+    width: 30vw;
+    height: 10vw;
+    position: absolute;
+    left: 34vw;
+    top: 0;
+}
+
+#time {
+    background-image: url(produktion/time.svg);
+    width: 6vw;
+    height: 6vw;
+    position: absolute;
+    top: 2vw;
+    left: 62vw;
+}
+
+#cancel {
+    background-image: url(produktion/cancel.svg);
+    position: absolute;
+    width: 6vw;
+    height: 6vw;
+    top: 0;
+    left: 94vw;
+}
+
+/*nr. 2 på mellemste tørresnor*/
+#pengeseddel {
+    background-image: url(produktion/pengeseddel.svg);
+    position: absolute;
+    width: 6.85vw;
+    height: 13vw;
+    top: 27vw;
+    left: 40vw;
+}
+
+/*nr. 1 på øverste tørresnor*/
+#pengeseddel2 {
+    background-image: url(produktion/pengeseddel2.svg);
+    position: absolute;
+    width: 6.85vw;
+    height: 13vw;
+    top: 11vw;
+    left: 20vw;
+    transform: rotate(10deg);
+}
+
+/*nr. 3 på nederste tørresnor*/
+#pengeseddel3 {
+    background-image: url(produktion/pengeseddel3.svg);
+    position: absolute;
+    width: 6.85vw;
+    height: 13vw;
+    top: 41vw;
+    left: 75vw;
+    transform: rotate(-10deg);
+}
+
+/*nr. 1 på nederste tørresnor*/
+#pengeseddel4 {
+    background-image: url(produktion/pengeseddel4.svg);
+    position: absolute;
+    width: 6.85vw;
+    height: 13vw;
+    top: 40vw;
+    left: 15vw;
+    transform: rotate(10deg);
+}
+
+/*nr. 2 på øverste tørresnor*/
+#skat_seddel {
+    background-image: url(produktion/skat_seddel.svg);
+    position: absolute;
+    width: 7.9vw;
+    height: 11vw;
+    top: 11.3vw;
+    left: 75vw;
+    transform: rotate(-7deg);
+}
+
+/*nr. 1 på mellemste tørresnor*/
+#skat_seddel2 {
+    background-image: url(produktion/skat_seddel2.svg);
+    position: absolute;
+    width: 7.9vw;
+    height: 11vw;
+    top: 25.8vw;
+    left: 15vw;
+    transform: rotate(13deg);
+}
+
+/*nr. 3 på mellemste tørresnor*/
+#blaa_sok {
+    background-image: url(produktion/blaa_sok.svg);
+    position: absolute;
+    width: 7.9vw;
+    height: 11vw;
+    top: 28.6vw;
+    left: 63vw;
+}
+
+/*nr. 2 på nederste tørresnor*/
+#gul_sok {
+    background-image: url(produktion/gul_sok.svg);
+    position: absolute;
+    width: 9.24vw;
+    height: 11vw;
+    top: 43.3vw;
+    left: 40vw;
+}
+
+/*nr. 1 på øverste tørresnor*/
+#klemme {
+    background-image: url(produktion/klemme.svg);
+    position: absolute;
+    width: 12.16vw;
+    height: 14vw;
+    top: 6.6vw;
+    left: 18.2vw;
+    transform: rotate(10deg);
+
+}
+
+/*nr. 2 på øverste tørresnor*/
+#klemme1 {
+    background-image: url(produktion/klemme1.svg);
+    position: absolute;
+    width: 12.16vw;
+    height: 14vw;
+    top: 6.3vw;
+    left: 72.5vw;
+    transform: rotate(-7deg);
+}
+
+/*nr. 1 på mellemste tørresnor*/
+#klemme2 {
+    background-image: url(produktion/klemme2.svg);
+    position: absolute;
+    width: 12.16vw;
+    height: 14vw;
+    top: 21vw;
+    left: 13.5vw;
+    transform: rotate(10deg);
+}
+
+
+/*nr. 2 på mellemste tørresnor*/
+#klemme3 {
+    background-image: url(produktion/klemme3.svg);
+    position: absolute;
+    width: 12.16vw;
+    height: 14vw;
+    top: 21.8vw;
+    left: 37vw;
+}
+
+/*nr. 3 på mellemste tørresnor*/
+#klemme4 {
+    background-image: url(produktion/klemme4.svg);
+    position: absolute;
+    width: 12.16vw;
+    height: 14vw;
+    top: 22.2vw;
+    left: 61vw;
+}
+
+/*nr. 1 på nederste tørresnor*/
+#klemme5 {
+    background-image: url(produktion/klemme5.svg);
+    position: absolute;
+    width: 12.16vw;
+    height: 14vw;
+    top: 35.6vw;
+    left: 13vw;
+    transform: rotate(10deg);
+}
+
+/*nr. 2 på nederste tørresnor*/
+#klemme6 {
+    background-image: url(produktion/klemme6.svg);
+    position: absolute;
+    width: 12.16vw;
+    height: 14vw;
+    top: 37vw;
+    left: 37.5vw;
+}
+
+/*nr. 3 på nederste tørresnor*/
+#klemme7 {
+    background-image: url(produktion/klemme7.svg);
+    position: absolute;
+    width: 12.16vw;
+    height: 14vw;
+    top: 36vw;
+    left: 72vw;
+    transform: rotate(-10deg);
+}
