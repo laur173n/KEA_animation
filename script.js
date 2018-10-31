@@ -29,4 +29,7 @@ function startGame() {
     document.querySelector("#start").removeEventListener("animationend", startGame);
     document.querySelector("#start").classList.remove("fade_out");
     document.querySelector("#start").classList.add("hide");
+    document.querySelector("#game").classList.add("show");
+    document.querySelector("#game").classList.remove("hide");
+
 }
