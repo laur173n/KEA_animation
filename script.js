@@ -31,5 +31,38 @@ function startGame() {
     document.querySelector("#start").classList.add("hide");
     document.querySelector("#game").classList.add("show");
     document.querySelector("#game").classList.remove("hide");
-
 }
+
+//SLIDE EFFEKT
+//var gruppe1 = document.querySelector("#gruppe1");
+//var gruppe2 = document.querySelector("#gruppe2");
+//var gruppe3 = document.querySelector("#gruppe3");
+//var gruppe4 = document.querySelector("#gruppe4");
+//var gruppe5 = document.querySelector("#gruppe5");
+//var gruppe6 = document.querySelector("#gruppe6");
+//var gruppe7 = document.querySelector("#gruppe7");
+//var gruppe8 = document.querySelector("#gruppe8");
+//
+//
+//var gruppe1pos = 0;
+//var slideRight = function () {
+//    if (gruppe1pos === 50) {
+//        // Reset position.
+//        box1pos = 0
+//    } else {
+//        gruppe1pos = box1pos + 1;
+//        gruppe1.style.left = box1pos + 'vw';
+//    }
+//}
+//
+//
+//var box2pos = 0;
+//var slideRight2 = function () {
+//    if (box2pos === -50) {
+//        // Reset position.
+//        box2pos = 0
+//    } else {
+//        box2pos = box2pos - 1;
+//        boxElement2.style.left = box2pos + 'vw';
+//    }
+//}

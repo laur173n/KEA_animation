@@ -147,49 +147,16 @@ body {
     left: 95vw;
 }
 
-/*nr. 2 på mellemste tørresnor*/
+
+/*nr. 1 på øverste tørresnor*/
 #pengeseddel {
     background-image: url(produktion/pengeseddel.svg);
     position: absolute;
     width: 6.85vw;
-    height: 13vw;
-    top: 27vw;
-    left: 40vw;
-
-}
-
-
-/*nr. 1 på øverste tørresnor*/
-#pengeseddel1 {
-    background-image: url(produktion/pengeseddel1.svg);
-    position: absolute;
-    width: 6.85vw;
-    height: 13vw;
-    top: 11vw;
-    left: 20vw;
-    transform: rotate(10deg);
-}
-
-/*nr. 3 på nederste tørresnor*/
-#pengeseddel2 {
-    background-image: url(produktion/pengeseddel2.svg);
-    position: absolute;
-    width: 6.85vw;
-    height: 13vw;
-    top: 41vw;
-    left: 75vw;
+    height: 11vw;
+    top: 5vw;
+    left: 21.5vw;
     transform: rotate(-10deg);
-}
-
-/*nr. 1 på nederste tørresnor*/
-#pengeseddel3 {
-    background-image: url(produktion/pengeseddel3.svg);
-    position: absolute;
-    width: 6.85vw;
-    height: 13vw;
-    top: 41vw;
-    left: 15vw;
-    transform: rotate(10deg);
 }
 
 /*nr. 2 på øverste tørresnor*/
@@ -198,30 +165,51 @@ body {
     position: absolute;
     width: 7.9vw;
     height: 11vw;
-    top: 11.3vw;
     left: 75vw;
+    top: 5vw;
     transform: rotate(-7deg);
 }
 
 /*nr. 1 på mellemste tørresnor*/
+#pengeseddel1 {
+    background-image: url(produktion/pengeseddel1.svg);
+    position: absolute;
+    width: 6.85vw;
+    height: 13vw;
+    left: 15vw;
+    top: 4.5vw;
+    transform: rotate(10deg);
+}
+
+/*nr. 2 på mellemste tørresnor*/
 #skat_seddel1 {
     background-image: url(produktion/skat_seddel1.svg);
     position: absolute;
     width: 7.9vw;
     height: 11vw;
-    top: 25.8vw;
-    left: 15vw;
+    left: 39vw;
+    top: 4.5vw;
     transform: rotate(13deg);
 }
-
 /*nr. 3 på mellemste tørresnor*/
 #blaa_sok {
     background-image: url(produktion/blaa_sok.svg);
     position: absolute;
     width: 7.9vw;
     height: 11vw;
-    top: 28.6vw;
     left: 63vw;
+    top: 5vw;
+}
+
+/*nr. 1 på nederste tørresnor*/
+#pengeseddel2 {
+    background-image: url(produktion/pengeseddel2.svg);
+    position: absolute;
+    width: 6.85vw;
+    height: 13vw;
+    left: 15vw;
+    top: 4.5vw;
+    transform: rotate(-10deg);
 }
 
 /*nr. 2 på nederste tørresnor*/
@@ -230,9 +218,21 @@ body {
     position: absolute;
     width: 9.24vw;
     height: 11vw;
-    top: 42.5vw;
     left: 40vw;
+    top: 5vw;
 }
+
+/*nr. 3 på nederste tørresnor*/
+#pengeseddel3 {
+    background-image: url(produktion/pengeseddel3.svg);
+    position: absolute;
+    width: 6.85vw;
+    height: 13vw;
+    left: 74vw;
+    top: 4.5vw;
+    transform: rotate(10deg);
+}
+
 
 /*nr. 1 på øverste tørresnor*/
 #klemme {
@@ -240,7 +240,6 @@ body {
     position: absolute;
     width: 12.16vw;
     height: 14vw;
-    top: 6.6vw;
     left: 18.2vw;
     transform: rotate(10deg);
 
@@ -252,7 +251,6 @@ body {
     position: absolute;
     width: 12.16vw;
     height: 14vw;
-    top: 6.3vw;
     left: 72.5vw;
     transform: rotate(-7deg);
 }
@@ -263,7 +261,6 @@ body {
     position: absolute;
     width: 12.16vw;
     height: 14vw;
-    top: 21vw;
     left: 13.5vw;
     transform: rotate(10deg);
 }
@@ -275,7 +272,6 @@ body {
     position: absolute;
     width: 12.16vw;
     height: 14vw;
-    top: 21.8vw;
     left: 37vw;
 }
 
@@ -285,7 +281,6 @@ body {
     position: absolute;
     width: 12.16vw;
     height: 14vw;
-    top: 22.2vw;
     left: 61vw;
 }
 
@@ -295,7 +290,6 @@ body {
     position: absolute;
     width: 12.16vw;
     height: 14vw;
-    top: 35.6vw;
     left: 13vw;
     transform: rotate(10deg);
 }
@@ -306,7 +300,6 @@ body {
     position: absolute;
     width: 12.16vw;
     height: 14vw;
-    top: 37vw;
     left: 37.5vw;
 }
 
@@ -316,7 +309,6 @@ body {
     position: absolute;
     width: 12.16vw;
     height: 14vw;
-    top: 36vw;
     left: 72vw;
     transform: rotate(-10deg);
 }
