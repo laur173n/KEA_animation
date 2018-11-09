@@ -10,46 +10,59 @@
 
 <body>
     <div id="screen">
+
+        <div id="beskrivelse" class="hide">
+            <div id="got_it_beskrivelse" class="pulse"></div>
+        </div>
         <div id="menu_background" class="hide"></div>
         <div id="game" class="hide">
             <div id="game_background"></div>
             <div id="game_elements">
+                <a href="javascript:history.go(0)">
+                    <div id="cancel_game"></div>
+                </a>
 
                 <div id="toerresnor">
-                    <div class="gruppe1">
-                        <div id="pengeseddel" class=""></div>
-                        <div id="klemme" class="">
+                    <div id="gruppe1" class="type1">
+                        <div id="pengeseddel"></div>
+                        <div id="klemme">
                         </div>
                     </div>
 
-                    <div class="gruppe2">
-                        <div id="skat_seddel" class=""></div>
-                        <div id="klemme1" class=""></div>
+                    <div id="gruppe2" class="type2">
+                        <div id="skat_seddel"></div>
+                        <div id="klemme1"></div>
                     </div>
+
+                    <div id="ekstra_gruppe1">
+                        <div id="pengeseddel4"></div>
+                        <div id="klemme8"></div>
+                    </div>
+
 
                 </div>
 
 
                 <div id="toerresnor1">
-                    <div id="gruppe3">
-                        <div id="pengeseddel1" class=""></div>
-                        <div id="klemme2" class=""></div>
+                    <div id="gruppe3" class="type1">
+                        <div id="pengeseddel1"></div>
+                        <div id="klemme2"></div>
                     </div>
 
 
-                    <div id="gruppe4">
-                        <div id="skat_seddel1" class=""></div>
-                        <div id="klemme3" class=""></div>
+                    <div id="gruppe4" class="type2">
+                        <div id="skat_seddel1"></div>
+                        <div id="klemme3"></div>
                     </div>
 
                     <div id="gruppe5">
-                        <div id="blaa_sok" class=""></div>
-                        <div id="klemme4" class=""></div>
+                        <div id="blaa_sok"></div>
+                        <div id="klemme4"></div>
                     </div>
                 </div>
 
                 <div id="toerresnor2">
-                    <div id="gruppe6">
+                    <div id="gruppe6" class="type1">
                         <div id="pengeseddel2" class=""></div>
                         <div id="klemme5" class=""></div>
                     </div>
@@ -58,38 +71,77 @@
                         <div id="gul_sok" class=""></div>
                         <div id="klemme6" class=""></div>
                     </div>
-                    <div id="gruppe8">
+                    <div id="gruppe8" class="type1">
                         <div id="pengeseddel3" class=""></div>
                         <div id="klemme7" class=""></div>
                     </div>
                 </div>
-
-
                 <div id="mand"></div>
-                <div id="cancel"></div>
-
 
             </div>
 
             <div id="game_ui">
                 <div id="nedtaelling"></div>
-                <div id="penge_optælling"></div>
+                <div id="time_logo" class="pulse"></div>
                 <div id="time"></div>
+                <div id="points_baggrund"></div>
+                <div id="points">0</div>
+            </div>
+
+        </div>
+
+        <div id="start" class="hide">
+            <div id="play" class="pulse"></div>
+            <div id="mand_sprite"></div>
+
+        </div>
+        <div id="settings" class="pulse"></div>
+
+        <div id="settings_baggrund" class="hide">
+            <div id="cancel" class=""></div>
+
+
+            <div id="setting_effekt_sound">
+                <div id="sfx" class="on">
+                    <div id="sfx_sprite"></div>
+                </div>
+            </div>
+            <div id="setting_music">
+                <div id="music" class="on">
+                    <div id="music_sprite"></div>
+                </div>
+
+            </div>
+            <div id="setting_notifications">
+                <div id="notifications" class="on">
+                    <div id="notifications_sprite"></div>
+                </div>
 
             </div>
 
         </div>
-        <div id="start" class="hide">
-            <div id="play" class="pulse"></div>
+
+
+        <div id="gameOver" class="hide">
+            <a href="javascript:history.go(0)">
+                <div id="replay_sort" class="pulse"></div>
+            </a>
+        </div>
+        <div id="levelComplete" class="hide">
+            <div id="replay_orange" class="pulse"></div>
         </div>
 
-
-        <div id="settings"></div>
-        <div id="gameover"></div>
-        <div id="levelcomplete"></div>
-
-
     </div>
+
+
+    <!-- AUDIO -->
+
+    <audio src="lyde/bab_sfx.mp3" id="bab"></audio>
+    <audio src="lyde/tching_sfx.mp3" id="tching"></audio>
+    <audio src="lyde/musik.mp3" id="musik"></audio>
+
+
+
     <script src="script.js"></script>
 
 </body>
